@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html id="html">
+  <head>
+    <title>TRAPEZOID</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="thebody">
+    <h1>TRAPEZOID CALCULATOR</h1>
+    <p>
+      The trapezoid is a quadrilateral shape with at least one pair of parallel
+      sides.
+    </p>
+    <p>
+      The parellel sides are called bases and the other two sides are called
+      legs. The area of the shape is calculated using the formula : A = 1/2 ( b1
+      + b2) x h
+    </p>
+    <hr />
+    <ul id="list">
+      <li class="listitems">
+        Top base / Base 1 : <input id="topbase" type="number" />
+      </li>
+      <img class="check" src="images/check.png" alt="check" width="20px" />
+      <li class="listitems">
+        Bottom Base / Base 2 : <input id="bottombase" type="number" />
+      </li>
+      <img class="check" src="images/check.png" alt="check" width="20px" />
+      <li class="listitems">
+        Height of trapezoid : <input id="height" type="number" />
+        <img class="check" src="images/check.png" alt="check" width="20px" />
+      </li>
+
+      <li class="listitems">
+        Rounded to : <input id="rounded" type="number" />
+        <img class="check" src="images/check.png" alt="check" width="20px" />
+      </li>
+    </ul>
+    <div><button id="calculate">Calculate</button></div>
+    <p>The area of this shape is : <span id="answer">----</span></p>
+    <img src="images/trapezoid.png" alt="shape" />
+    <script defer src="script.js"></script>
+  </body>
+</html>
